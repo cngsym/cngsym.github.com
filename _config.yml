@@ -19,7 +19,7 @@ rdiscount:
 # ----------------------------------------------------------------------
 
 # github hesap adı (ör. roktas)
-account:cngsym
+account: cngsym
 
 # github organizasyonu (ör. 19)
 organization: 19
@@ -59,7 +59,7 @@ param:
         # --------------------------------------------------------------
         # unix kullanıcı adı (ör. roktas)
         # dikkat!  unix kullanıcı adı github hesabından farklı olabilir
-        user:cngsym
+        user: cngsym
         # tam kullanıcı adı (ör. Recai Oktaş)
         fullname: Şeyma İbiş
         # email adresi (ör. roktas@bil.omu.edu.tr)
@@ -71,9 +71,9 @@ param:
         # twitter adresi (ör. http://19.status.net/roktas)
         twitter: https://twitter.com/cngsym
         # flick adresi (ör. http://flickr.com/photos/roktas)
-        flickr: 
+        flickr: ~
         # facebook adresi (ör. http://facebook.com/roktas)
-        facebook: 
+        facebook: ~
         # özet akışı adresi (ör. http://feeds.feedburner.com/roktas)
         feed: ~
 
@@ -99,12 +99,12 @@ param:
         # ilişkili girdiler
         related: Diğer Girdiler
         # logo (ör. http://00010011.github.com/assets/19/19-normal-128x128.png)
-        logo: /chrome/19/19-altnegative-128x128.png
+        logo: /chrome/19/19-normal-128x128.png
         # google site içi arama kutusu
         google: ~
         # google analytics takip numarası (ör. UA-1234567-8
-        googleanalyticsid: 
+        googleanalyticsid: ~
         # sayfa yorumları için disqus site kaydı (ör. roktas)
-        disqus: cngsym 
+        disqus: ~
         # GitHub şerit metni (ör. GitHub'dayım)
         ribbon: GitHub'dayım
