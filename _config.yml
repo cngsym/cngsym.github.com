@@ -69,7 +69,7 @@ param:
         # GnuPG kısa parmak izi (ör. DEADBEEF)
         gpg: ~
         # twitter adresi (ör. http://19.status.net/roktas)
-        twitter: 
+        twitter: https://twitter.com/cngsym
         # flick adresi (ör. http://flickr.com/photos/roktas)
         flickr: 
         # facebook adresi (ör. http://facebook.com/roktas)
