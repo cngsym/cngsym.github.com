@@ -3,7 +3,35 @@ layout:post
 ---
 title:kısaca scsi nedir?
 
-SCSI (Small Computer System Interface = Küçük bilgisayar Sistemi Arabirimi), Hdd , Cd-Rom , Scanner, Printer gibi aygitlari paralel arabirim standartlarindan daha uyumlu ve gelişmiş bir şekilde kontrol eden standarttir. Bilgisayarlarimizda SCSI aygitlar, ya entegre SCSI kontrolcüleriyle ya da SCSI kontrol kartlariyla kullaniliyor. SCSI şu anki diger paralel arabirim standartlarindan daha hizli bir veri akişina sahiptir. Bu hiz ise şu anda 160Mb/s'yeye kadar çikiyor. SCSI'nin Avantajlari Nelerdir? SCSI nin avantajlarinda bahsedecek olursak; 
-1-SCSI aygitlar veri transferi için gelen komut ya da komutlari işlemciye degil kendi üzerinde bulunan kontrolcüye yaptirir.IDE aygitlari ise komut ya da komutlari işlemciye yaptirirlar. Bunun bize saglayacagi fayda ise; hem işlemciyi fazla yormadan birçok aygita hakim olabilecegiz, hem de CD yazma olayinda hata orani IDE CD-WRITER'a göre daha azdir. 
-2-SCSI kartlarin üzerinde kendi BIOS'lari bulunur. Bunun bize avantaji ise: bir SCSI kart üzerine taktiginiz bir aygiti SCSI BIOS sayesinde görebiliyorsunuz. Ve bu ayggitlar IRQ işgal etmez.yani çakişma problemi dedigimiz olay minimuma iniyor.karta takilan aygitlar degil,sadece SCSI kart IRQ işgal eder. Eger SCSI kartimiz Dual-Channel (Çift Kanalli) ise 15 SCSI aygitni sorun olmadan baglayabilirsiniz. Ayrica sisteminize birden fazla SCSI kart da baglayabilirsiniz. Sisteminize 2 adet Dual -Channel SCSI karti attiniz mi 30 aygit baglayabilirsiniz.
-3-Sistem çalişma esnasinda ise SCSI aygitlarin çok daha rahat ve sorunsuz oldugunu görüyoruz. Paralel Porta baglanan bir pirinter sahibi iseniz tarama esnasinda hiç bir şey yapamazsiniz genelde. Ama SCSI tarayicilarda bu sorun yoktur. Çünkü tarayacinin yaptirdigi işlemleri Paralel Scanner gibi işlemciye degilde kendis SCSI denetleyecisine yaptirir. Yalniz şuradan şu sonuç çikmasin : "SCSI aygitlar hiç CPU harcamaz!" Hayir. Bu yanliştir. Yüzde %0,01 ila %5 arasinda bir CPU kullanimi vardir genelde. Bu rakam bazen duruma göre (çok da olmasa) artabilir.
+SCSI(Small Computer System Interface=Küçük bilgisayar Sistemi Arabirimi)
+ Hdd , Cd-Rom , Scanner, Printer gibi aygitlari paralel arabirim 
+ standartlarindan daha uyumlu ve gelişmiş bir şekilde kontrol eden
+ standarttir. Bilgisayarlarimizda SCSI aygitlar, ya entegre SCSI
+ kontrolcüleriyle ya da SCSI kontrol kartlariyla kullaniliyor. SCSI şu
+ anki diger paralel arabirim standartlarindan daha hizli bir veri 
+ akişina sahiptir. Bu hiz ise şu anda 160Mb/s'yeye kadar çikiyor. 
+ SCSI'nin Avantajlari Nelerdir? SCSI nin avantajlarinda bahsedecek 
+ olursak; 
+1-SCSI aygitlar veri transferi için gelen komut ya da komutlari 
+ işlemciye degil kendi üzerinde bulunan kontrolcüyeyaptirir.IDEaygitlari
+ ise komut ya da komutlari işlemciye yaptirirlar. Bunun bize saglayacagi
+ fayda ise; hem işlemciyi fazla yormadan birçok aygita hakim 
+ olabilecegiz, hem de CD yazma olayinda hata orani IDE CD-WRITER'a göre 
+ daha azdir. 
+2-SCSI kartlarin üzerinde kendi BIOSlari bulunur.Bunun bize avantaji ise
+ bir SCSI kart üzerine taktiginiz bir aygiti SCSI BIOS sayesinde 
+ görebiliyorsunuz. Ve bu ayggitlar IRQ işgal etmez.yani çakişma problemi
+ dedigimiz olay minimuma iniyor.karta takilan aygitlar degil,sadece SCSI
+ kart IRQ işgal eder. Eger SCSI kartimiz Dual-Channel (Çift Kanalli) 
+ ise 15 SCSI aygitni sorun olmadan baglayabilirsiniz. Ayrica 
+ sisteminize birden fazla SCSI kart da baglayabilirsiniz. Sisteminize 2
+ adet Dual -Channel SCSI karti attiniz mi 30 aygit baglayabilirsiniz.
+3-Sistem çalişma esnasinda ise SCSI aygitlarin çok daha rahat ve 
+ sorunsuz oldugunu görüyoruz. Paralel Porta baglanan bir pirinter sahibi 
+ iseniz tarama esnasinda hiç bir şey yapamazsiniz genelde. Ama SCSI 
+ tarayicilarda bu sorun yoktur. Çünkü tarayacinin yaptirdigi işlemleri
+ Paralel Scanner gibi işlemciye degilde kendis SCSI denetleyecisine 
+ yaptirir. Yalniz şuradan şu sonuç çikmasin : "SCSI aygitlar hiç CPU 
+ harcamaz!" Hayir. Bu yanliştir. Yüzde %0,01 ila %5 arasinda bir CPU 
+ kullanimi vardir genelde. Bu rakam bazen duruma göre (çok da olmasa) 
+ artabilir.
