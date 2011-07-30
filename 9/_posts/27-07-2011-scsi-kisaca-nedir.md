@@ -1,5 +1,5 @@
 ---
 layout:post
-title:kısaca scsi nedir?
+title:kısaca scsi nedir
 ---
-??
+ ilginc bir durum daha...
