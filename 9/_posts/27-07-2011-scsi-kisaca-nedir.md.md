@@ -1,7 +1,8 @@
 ---
 layout:post
----
 title:kısaca scsi nedir?
+---
+
 
 SCSI(Small Computer System Interface=Küçük bilgisayar Sistemi Arabirimi)
  Hdd , Cd-Rom , Scanner, Printer gibi aygitlari paralel arabirim 
