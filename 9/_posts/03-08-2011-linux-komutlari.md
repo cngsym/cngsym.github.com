@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gerekili Linux Komutları
+title: Gerekli Linux Komutları
 ---
 # cd
 Change Directory kelimelerinin ilk harfleri. Dos da oldugu gibi dizin degistirmeye yariyor. Misal cd /mnt dersiniz oraya gecersiniz.
