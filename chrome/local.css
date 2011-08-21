@@ -11,4 +11,12 @@ body {
 background-color: white;
 background-image:url('../chrome/arka_p.jpg')
 }
+a.deneme{
+position:absolute; top:262px;left:525px}
+
+.deneme2{
+position:absolute; top:262px;left:625px}
+
+a.deneme3{
+position:absolute; top:262px;left:793px}
 
